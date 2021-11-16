@@ -3,5 +3,5 @@
 sudo apt update
 
 sudo apt install \
-dnsmasq
+dnsmasq \
 podman
