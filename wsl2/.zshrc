@@ -3,6 +3,7 @@ export PATH="$PATH:$HOME/.pulumi/bin:/usr/local/bin/gradle/gradle-7.2/bin"
 
 alias apt="sudo apt"
 alias apt-get="sudo apt-get"
+alias podman="sudo podman"
 alias docker="podman"
 alias toolbox="podman run -it --rm -v ~/.kube:/root/.kube -v ~/git:/root/git -v ${PWD}:/root/project docker.io/ksandermann/cloud-toolbox /bin/zsh"
 alias python="python3"
